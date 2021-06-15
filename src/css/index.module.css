@@ -1,0 +1,91 @@
+/* 宽度 */
+
+@media screen and (min-width: 1920px) {
+    .firstbox {
+        display: inline;
+    }
+
+    .sceond{
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 1650px) and (max-width: 1919px) {
+    .firstbox {
+        display: inline;
+    }
+
+    .sceond{
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 1501px) and (max-width: 1649px) {
+    .firstbox {
+        display: inline;
+    }
+
+    .sceond{
+        display: none;
+    }
+
+}
+
+
+@media screen and (min-width: 1441px) and (max-width: 1500px) {
+    .firstbox {
+        display: none;
+    }
+
+
+    .sceond{
+        display: inline;
+    }
+
+}
+
+
+@media screen and (max-width: 1440px) {
+    .firstbox {
+        display: none;
+    }
+
+
+
+
+    .sceond{
+        display: inline;
+    }
+}
+
+
+
+/* 高度 */
+
+/* @media screen and (min-height: 1080px) {
+
+
+} */
+
+
+
+
+@media screen and (max-height: 901px) {
+
+    .showHeight {
+        display: none !important;
+    }
+
+    .firstbox {
+        display: none;
+    }
+
+
+    .sceond{
+        display: inline;
+    }
+
+}
+
